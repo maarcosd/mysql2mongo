@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "description": "Importing (and transforming) data from MySQL into MongoDB",
   "main": "app.js",
+  "scripts": {
+    "start" : "node app.js"
+  },
   "dependencies": {
     "assert": "^1.4.1",
-    "mongodb": "^1.4.40",
+    "mongodb": "~2.2.10",
     "mysql": "~2.11.1",
     "underscore": "=1.4.3"
   },
