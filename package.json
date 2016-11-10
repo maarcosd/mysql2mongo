@@ -4,12 +4,14 @@
   "description": "Importing (and transforming) data from MySQL into MongoDB",
   "main": "app.js",
   "scripts": {
-    "start" : "node app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "assert": "^1.4.1",
+    "bcrypt": "^0.8.7",
     "mongodb": "~2.2.10",
     "mysql": "~2.11.1",
+    "password-generator": "^2.0.2",
     "underscore": "=1.4.3"
   },
   "repository": {
